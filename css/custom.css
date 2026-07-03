@@ -1,0 +1,755 @@
+/* Add here all your CSS customizations */
+
+/*aqui es para dar el efecto particulas*/
+
+
+#particles-js{
+	width: 100%;
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	height: auto;
+}
+
+.flexible{
+	display: flex;
+}
+
+#particles-jsb{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#particles-jsc{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* aqui acaban las particulas */
+
+/*aqui es para hacer mas grande los titulos de la web*/
+h2.titular{
+	font-size: 3rem;
+}
+
+/* aqui se cambiar el color para campaña G-Suite */
+/* OJO BORRAR CUANDO SE CUMPLA 26 de ABRIL */
+
+.letraM{
+	font-size: 1.5rem !important;
+}
+
+.colorFrontal{
+	color: #F49F0A !important;
+	font-weight: bold;;
+}
+
+/*hasta aqui acaba G-SUITE*/
+
+.blanco{
+	color: #fff !important;
+}
+
+.negro{
+	color: #000 !important;
+}
+
+/*ESTOS COLORES son para las carreras exactemente malla curricular*/
+
+.colorM1{
+	background-color: #6d6d6d;
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	font-size:1rem;
+}
+
+.colorM2{
+	background-color: #98bbda;
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	font-size:1rem;
+}
+
+.colorM3{
+	background-color: #f4de99;
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	font-size:1rem;
+}
+
+.colorM4{
+	background-color: #bdd5ac;
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	font-size:1rem;
+}
+
+.colorM5{
+	background-color: #e0a880;
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	font-size:1rem;
+}
+
+h2.bloque{
+	display: block !important;
+}
+
+span.circuloCarrera{
+	display:inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-left: 50px;
+	position: absolute;
+	right: 100px;
+}
+
+.cc1{
+	background-color: #6d6d6d;
+}
+
+.cc2{
+	background-color: #98bbda;
+}
+
+.cc3{
+	background-color: #f4de99;
+}
+
+.cc4{
+	background-color: #bdd5ac;
+}
+
+.cc5{
+	background-color: #e0a880;
+}
+
+.colorGrad{
+	background-color: #388697 !important;  
+    background-color: -webkit-linear-gradient(to left, #99f2c8, #1f4037) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to left, #99f2c8, #1f4037) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*aqui acaban las mallas*/
+
+/* este codigo es para investigacion */
+
+table.oportunidades{
+	width: 98%;
+	margin: auto;
+}
+
+table.oportunidades tr td{
+	border: 1px solid #EBE4E4;
+	padding-left: 10px;
+}
+
+table.oportunidades .cabecera{
+	background-color: #BBD4EA;
+	text-align: center;
+}
+
+table.gruposInvestigacion{
+	width: 100%;
+	margin: auto;
+}
+
+table.gruposInvestigacion h3{
+	text-align: center;
+	margin-top: 20px;
+}
+
+table.gruposInvestigacion tr td{
+	border: 1px solid #EBE4E4;
+	padding-left: 10px;
+}
+
+.cabeceraT{
+	background-color: #30B8D1 !important;
+}
+.gruposInvestigacion tr:nth-child(even){
+	background-color: #F7F7FF !important;
+}
+
+/*Aqui puedo poner 5% mas a donde sea*/
+
+.p1{
+	width: 10% !important;
+}
+.p2{
+	width: 10% !important;
+}
+.p3{
+	width: 20% !important;
+}
+.p4{
+	width: 35% !important;
+}
+.p5{
+	width: 10% !important;
+}
+.p6{
+	width: 15% !important;
+}
+
+
+.p7{
+	width: 10% !important;
+}
+/*.p8{
+	width: 5% !important;
+}*/
+
+table.redesInvestigacion{
+	width: 98%;
+	margin: auto;
+	text-align: center;
+}
+
+table.redesInvestigacion thead{
+	background-color: #ffa41b;
+	color: white;
+	font-weight: bold;
+}
+
+table.redesInvestigacion tbody tr td{
+	border: 1px solid #EBE4E4;
+	padding: 5px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+table.redesInvestigacion .redes1{
+	width: 5%;
+}
+
+.redes7{
+	width: 8%;
+}
+
+/*table.redesInvestigacion .redes2{
+	width: 10%;
+}
+table.redesInvestigacion .redes3{
+	width: 10%;
+}
+table.redesInvestigacion .redes4{
+	width: 10%;
+}
+table.redesInvestigacion .redes5{
+	width: 20%;
+}
+table.redesInvestigacion .redes6{
+	width: 10% !important;
+}
+table.redesInvestigacion .redes7{
+	width: 15%;
+}
+table.redesInvestigacion .redes8{
+	width: 10%;
+}*/
+
+
+/*acaba codigo de investigacion*/
+
+
+.centrar{
+	text-align: center;
+}
+
+.justificar{
+	text-align: justify;
+}
+
+.oculto{
+	display: none;
+}
+
+div.romper{
+	clear: both;
+}
+
+img.centrarIMG{
+	display: block;
+	margin: auto;
+}
+
+.tabla_simposio thead{
+	background-color: #FFA11E !important;
+	color: black;
+}
+
+.tabla_simposio tbody tr:nth-child(even){
+	background-color: #F9F9F9 !important;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+.flexible{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+}
+
+/*esta parte es para las noticias ikiam de la derecha*/
+div.noticiasIKIAM{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 55vh;
+	z-index: 1000;
+	position: relative;
+	align-items: center !important;
+	/*background-color: rgba(255,0,0,0.3) !important;*/
+}
+
+div.contenidos{
+	width: 100%;
+	height: 50vh;
+	padding: 15px;
+	box-sizing: border-box;
+	border-bottom: 3px solid white;
+	display: flex;
+	align-items: center;
+}
+
+p.titBanner{
+	font-size: 26px;
+	color: white !important;
+}
+
+p.datoBanner{
+	color: white !important;
+	font-size: 1rem !important;
+}
+
+a.linkNoticias{
+	text-decoration: none;
+}
+
+/*Color de las carreras*/
+
+.colorCarreras{
+	background-color: #0f88ca !important;
+}
+
+.textoCarreras{
+	color: #0f88ca !important;
+}
+
+
+.botCarreras{
+	text-decoration: none;
+}
+
+.botCarreras:hover{
+	text-decoration: none;
+}
+
+/*hasta aqui son de las noticias*/
+
+
+@media (min-width: 100px) and (max-width: 700px) {
+
+	div.letraM{
+		display: none !important;
+	}
+
+	.flexible{
+		justify-content: flex-end;
+	}
+	
+	div.noticiasIKIAM{
+		flex-direction: row;
+		width: 100%;
+		height: 15vh;
+		align-items: flex-start;
+	}
+
+	.cajaBanner{
+		display: flex;
+		justify-content: center;
+	}
+	
+	div.contenidos{
+		width: 50%;
+		height: 100%;
+		border: 0.5px solid rgba(255,255,255,0.1);
+		padding: 15px;
+		box-sizing: border-box;
+	}
+
+	p.titBanner{
+	font-size: 18px;
+	color: white !important;
+	}
+
+	p.datoBanner{
+		display: none;
+	}
+	
+}
+
+
+/*DESDE AQUI BORRAR UNA VEZ CONCLUIDO EL PERIODO DE AYUDANTES DE CATEDRA*/
+
+table.oportunidadesAYU{
+	width: 98%;
+	margin: auto;
+}
+
+table.oportunidadesAYU tr:nth-child(odd){
+	background-color: #DBF1FF;
+}
+
+td.cabAYU{
+	background-color: #1B4965;
+	padding: 15px 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+}
+
+/*TABLAS AECID*/
+
+.tablaSimple{
+	width: 95%;
+}
+
+.tablaSimple thead{
+	background-color: #008080;
+	color: white;
+}
+
+.tablaSimple td{
+	border: 1px solid black;
+	padding: 3px 0;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.titAecid{
+	background-color: #008080;
+	color: white;
+	font-size: 22px;
+}
+
+.titAecid .f1{
+	width: 6%;
+}
+
+.titAecid .f2{
+	width: 45%;
+}
+
+.titAecid .f3{
+	width: 45%;
+}
+
+.tablaSimple tr:nth-child(even){
+	background-color: #EFEFEF;
+}
+
+
+.anuncio{
+	color: red !important;
+}
+
+div.lineas{
+	border: 1px solid #d1d1d1 !important;
+	box-sizing: border-box;
+}
+
+h2.fondoNaranja{
+	background-color: #ef4822;
+	width: 100%;
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+	color: white;
+}
+
+/*CODIGO PARA BASE DE LA PAGINA DE LA LIN*/
+
+div.baseDna{
+	background-image: url(../img/adn.png);
+	background-repeat: repeat-y;
+}
+
+div.musica{
+	display: none;
+}
+
+.verde{
+	color: #72b748 !important;
+	font-weight: bold;
+}
+
+.adn{
+	background-image: url(../img/ADN_patron.jpg) !important;
+}
+
+.bg-f1{
+	background-color: #E12F6D !important;
+}
+
+.bg-f2{
+	background-color: #19C1FF !important;	
+}
+
+.bg-f3{
+	background-color: #ABE188 !important;	
+}
+
+.bg-f4{
+	background-color: #EFA00B !important;	
+}
+
+.bg-f5{
+	background-color: #ad62aa !important;	
+}
+
+.bg-f6{
+	background-color: #5b8c85 !important;	
+}
+
+/*Colores para web SINDIATT borra al finalizar*/
+
+.sindiattBack1{
+	background-color: #1296c3 !important;
+}
+
+.sindiattBack2{
+	background-color: #0062a3 !important;
+}
+
+.sindiattCol1{
+	color: #1296c3 !important;
+}
+
+.sindiattCol2{
+	color: #0062a3 !important;
+}
+
+/*Estilos de la DITT*/
+/*colores base*/
+
+.dittB1{
+	/*background-color: #ffa41b !important;*/
+	border-top-color: #ffa41b !important;
+	border-left: 11px solid transparent !important;
+	border-right: 11px solid transparent !important;
+	border-top: 8px solid #ffa41b !important;
+	height: 0 !important;
+	margin: 0 0 0 45px !important;
+	width: 0 !important;
+}
+.dittB2{
+	border-top-color: #00bdaa !important;
+	border-left: 11px solid transparent !important;
+	border-right: 11px solid transparent !important;
+	border-top: 8px solid #00bdaa !important;
+	height: 0 !important;
+	margin: 0 0 0 45px !important;
+	width: 0 !important;
+}
+.dittB3{
+	border-top-color: #856c8b !important;
+	border-left: 11px solid transparent !important;
+	border-right: 11px solid transparent !important;
+	border-top: 8px solid #856c8b !important;
+	height: 0 !important;
+	margin: 0 0 0 45px !important;
+	width: 0 !important;
+}
+.dittB4{
+	border-top-color: #5b8c5a !important;
+	border-left: 11px solid transparent !important;
+	border-right: 11px solid transparent !important;
+	border-top: 8px solid #5b8c5a !important;
+	height: 0 !important;
+	margin: 0 0 0 45px !important;
+	width: 0 !important;
+}
+
+
+.ditt1 blockquote{
+	background-color: #ffa41b !important;
+}
+
+.ditt2 blockquote{
+	background-color: #00bdaa !important;
+}
+
+.ditt3 blockquote{
+	background-color: #856c8b !important;
+}
+
+.ditt4 blockquote{
+	background-color: #5b8c5a !important;
+}
+
+.dittC1{
+	background-color: #ffa41b !important;
+}
+
+.dittC2{
+	background-color: #00bdaa !important;
+}
+
+.dittC3{
+	background-color: #856c8b !important;
+}
+
+.dittC4{
+	background-color: #5b8c5a !important;
+}
+
+
+#botSin1,
+#botSin2,
+#botSin3,
+#botSin4,
+#botSin5{
+	color: #fff !important;
+}
+
+#botSin1:hover,
+#botSin2:hover,
+#botSin3:hover,
+#botSin4:hover,
+#botSin5:hover{
+	color: #0062a3 !important;
+}
+
+/*Tabla COVID 19*/
+
+table.covid{
+	width: 98%;
+	font-size: 12px;
+}
+
+table.covid thead{
+	background-color: #30B8D1;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+}
+table.covid td{
+	height: 50px;
+}
+table.covid tbody tr, table.covid tbody td{
+	border: 1px solid #EBE4E4;
+}
+
+table.covid tbody td{
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.cov1{
+	width: 15%;
+}
+.cov2{
+	width: 50%;
+}
+.cov3{
+	width: 15%;
+}
+.cov4{
+	width: 20%;
+}
+
+
+.linea{
+	display: inline !important; 
+}
+
+/*Tabla Programas*/
+
+table.programa thead{
+	background-color: #30B8D1;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+
+}
+
+table.programa tbody tr, table.programa tbody td{
+	border: 1px solid #EBE4E4;
+}
+
+table.programa tbody td{
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

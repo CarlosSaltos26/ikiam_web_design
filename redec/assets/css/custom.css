@@ -1,0 +1,34 @@
+.textoIzquierda{
+	text-align: left;
+}
+
+.none{
+	top: 0.2em;
+	margin-bottom: 0.2em;
+	border-bottom-color: rgba(192, 192, 192, 0.35);
+	box-shadow: inset 0 1px 0 0 rgba(192, 192, 192, 0.35);
+}
+
+table.redec,
+table.redec tr,
+table.redec td,
+table.redec th{
+	border: 0.5px solid #ececec;
+}
+
+table.redec td{
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+.centrar{
+	text-align: center;
+}
+
+.gris{
+	background-color: #f7f7f7;
+}
+
+.titulo{
+	color: white;
+}
